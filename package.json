@@ -1,7 +1,7 @@
 {
   "name": "savvy-spa-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is our practice SPA",
   "scripts": {
     "parcel-build": "parcel build index.html && cp _redirects ./dist/",
     "serve": "parcel index.html"
@@ -13,9 +13,22 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "1.19.1",
     "parcel": "^2.0.1",
+    "prettier": "1.19.1",
     "yargs-parser": ">=13.1.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "html-literal": "^1.1.0",
+    "lodash": "^4.17.21",
+    "navigo": "^8.11.1"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinicole/Jan2023ClassSPA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shinicole/Jan2023ClassSPA/issues"
+  },
+  "homepage": "https://github.com/shinicole/Jan2023ClassSPA#readme"
 }
